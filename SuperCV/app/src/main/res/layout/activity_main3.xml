@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="348dp"
+        android:layout_height="224dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158"
+        tools:srcCompat="@drawable/hearttt" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="404dp"
+        android:text="Prizes: Nobel prize "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="12dp"
+        android:text="Instructors: Dr.Khalid Alenazi and Dr.Fatima Alajmi "
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="4dp"
+        android:text="TAs: Mr.Abdullah Saud, Mr.Yousef Ahmad"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="334dp"
+        android:layout_height="258dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="72dp"
+        android:text="History: The Ahmadi Hospital was opened in April 1960, and its medical services were limited to KOC employees and their families. However, in the mid-1980s, treatment was extended to all oil sector employees and their families. The hospital provides many services, both therapeutic and supportive, the most important of which are: Emergency cases, General practitioner, Internal Medicine, Pediatrics, Surgery, Obstetrics and Gynecology, Ophthalmology, Dermatology, Ear. Nose and Throat, Anesthesiology, Dental, Preventive Medicine, Radiology, Intensive Care, Laboratory, Physical Therapy, Nutrition and ambulatory Services."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Return"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
